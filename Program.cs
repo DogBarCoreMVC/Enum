@@ -10,13 +10,13 @@ namespace Enum
 
             int showIndexThisMonth = (int)thisMonth;
 
-            Console.WriteLine(showIndexThisMonth);//แสดงผลออกมาเป็นตัวเลขของเดือน August
+            Console.WriteLine(showIndexThisMonth + "\n");//แสดงผลออกมาเป็นตัวเลขของเดือน August
 
-            Console.WriteLine((int)Month.Decenber);//แสดงผลออกมาเป็นตัวเลขของเดือน
+            Console.WriteLine((int)Month.Decenber + "\n");//แสดงผลออกมาเป็นตัวเลขของเดือน
 
             Month strThisMonth = (Month)2;
 
-            Console.WriteLine(strThisMonth);
+            Console.WriteLine(strThisMonth + "\n");
         }
     }
 }
